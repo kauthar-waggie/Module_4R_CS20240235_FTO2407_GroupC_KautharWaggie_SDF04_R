@@ -1,69 +1,68 @@
-
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #fef3e2; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fef3e2; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: repeating-linear-gradient(45deg, #f74545 25%, transparent 25%, transparent 75%, #f74545 75%, #f74545), repeating-linear-gradient(45deg, #f74545 25%, #e5e5f7 25%, #e5e5f7 75%, #f74545 75%, #f74545);
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
+  padding: 80px;
+  border-radius: 5px;
+  width: 62%;
+  height: 12%;
+  position: fixed;
+  background-attachment: fixed;
+
+}
+
+.pastry {
+  color: #533117;
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 18px;
+  position: fixed; 
+}
+
+.pastry img {
+  width: 50px;
+  height: 50px;
+}
+
+.pastry1 { /* Cookie */
+  top: center;
+  left: 24%;
+  background-color: #f0bb7f; 
   
-  .counter {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #e5e5f7;
-    opacity: 0.8;
-    background-image: repeating-linear-gradient(45deg, #f74545 25%, transparent 25%, transparent 75%, #f74545 75%, #f74545), repeating-linear-gradient(45deg, #f74545 25%, #e5e5f7 25%, #e5e5f7 75%, #f74545 75%, #f74545);
-    background-position: 0 0, 10px 10px;
-    background-size: 20px 20px;
-    padding: 80px;
-    border-radius: 5px;
-    width: 62%;
-    height: 12%;
-    position:relative;
+}
+
+.pastry2 { /* Brownie */
+  top: center;
+  right: 55%;
+  background-color: #7f553f; 
   
-  }
+}
+
+.pastry3 { /* Cupcake */
+  bottom: center;
+  right: 40%;
+  background-color: #f0a8be; 
   
-  .pastry {
-    color: #533117;
-    padding: 20px;
-    border-radius: 50%;
-    font-size: 18px;
-    position: absolute; 
-  }
-  
-  .pastry img {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .pastry1 { /* Cookie */
-    top: 80px;
-    left: 160px;
-    background-color: #f0bb7f; 
-    
-  }
-  
-  .pastry2 { /* Brownie */
-    top: 80px;
-    right: 650px;
-    background-color: #7f553f; 
-    
-  }
-  
-  .pastry3 { /* Cupcake */
-    bottom: 75px;
-    right: 410px;
-    background-color: #f0a8be; 
-    
-  }
-  
-  .pastry4 { /* Jelly Roll */
-    bottom: 75px;
-    right: 160px;
-    background-color: #7fa8f0; 
-  
+}
+
+.pastry4 { /* Jelly Roll */
+  bottom: center;
+  right: 24%;
+  background-color: #7fa8f0; 
 }
